@@ -11,7 +11,7 @@
 
 This project focuses on analyzing business performance using sales data across multiple countries, products, and customer segments. The goal was to transform raw transactional data into a decision-making dashboard that highlights revenue trends, profitability, and growth patterns.
 
-<img width="2237" height="1014" alt="Screenshot 2026-04-02 135629" src="https://github.com/user-attachments/assets/b07bc05b-3173-4727-864b-d5f6902e6f42" />
+<img width="2237" height="500" alt="Screenshot 2026-04-02 135629" src="https://github.com/user-attachments/assets/b07bc05b-3173-4727-864b-d5f6902e6f42" />
 
 
 ### Data Sources
@@ -69,11 +69,10 @@ Some of the core metrics developed include:
 - Discount %
 - Year-over-Year (YoY) Growth
     Example:
-    ```` DAX
+    ```dax
     YoY Sales Growth = DIVIDE(
     [Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date])),
-    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date])))
-
+    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date]))) 
 
 
 ### Dashboard Features
