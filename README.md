@@ -69,14 +69,6 @@ Some of the core metrics developed include:
 - Discount %
 - Year-over-Year (YoY) Growth
 
-Example:
-  ```dax
-    YoY Sales Growth = DIVIDE(
-    [Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date])),
-    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date])))
-```
-
-
 ### Dashboard Features
 The dashboard includes:
 #### KPI Summary
