@@ -107,3 +107,6 @@ Based on insights:
 - Target high-performing regions for expansion
 - Invest in marketing and promotions during peak sales seasons to maximize revenue.
 - Reduce reliance on low-profit segments
+
+
+💂‍♂️
