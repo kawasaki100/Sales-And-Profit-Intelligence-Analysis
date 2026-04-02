@@ -68,11 +68,13 @@ Some of the core metrics developed include:
 - Profit Margin (%)
 - Discount %
 - Year-over-Year (YoY) Growth
-    Example:
-    ```dax
+
+Example:
+  ```dax
     YoY Sales Growth = DIVIDE(
     [Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date])),
-    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date]))) 
+    CALCULATE([Total Sales], SAMEPERIODLASTYEAR(financials[Date])))
+```
 
 
 ### Dashboard Features
